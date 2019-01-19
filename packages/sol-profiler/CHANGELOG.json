@@ -39,7 +39,7 @@
         "version": "1.0.0",
         "changes": [
             {
-                "note": "Initial release as a separate package. For historical entries see @0x/sol-tracing-utils",
+                "note": "Initial release as a separate package. For historical entries see @dexon-foundation/sol-tracing-utils",
                 "pr": 1492
             }
         ]

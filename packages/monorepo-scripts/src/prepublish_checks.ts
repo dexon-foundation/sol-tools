@@ -141,20 +141,6 @@ async function checkPublishRequiredSetupAsync(): Promise<void> {
         throw new Error('You must be logged into npm in the commandline to publish. Run `npm login` and try again.');
     }
 
-    // Check to see if Git personal token setup
-    if (_.isUndefined(constants.githubPersonalAccessToken)) {
-        throw new Error(
-            'You must have a Github personal access token set to an envVar named `GITHUB_PERSONAL_ACCESS_TOKEN_0X_JS`. Add it then try again.',
-        );
-    }
-
-    // Check to see if discord URL is set up
-    if (_.isUndefined(constants.discordAlertWebhookUrl)) {
-        throw new Error(
-            'You must have a discord webhook URL set to an envVar named `DISCORD_GITHUB_RELEASE_WEBHOOK_URL`. Add it then try again.',
-        );
-    }
-
     // Check Yarn version is 1.X
     utils.log('Checking the yarn version...');
     const result = await execAsync(`yarn --version`);
@@ -163,14 +149,6 @@ async function checkPublishRequiredSetupAsync(): Promise<void> {
     const majorVersion = _.parseInt(versionSegments[0]);
     if (majorVersion < 1) {
         throw new Error('Your yarn version must be v1.x or higher. Upgrade yarn and try again.');
-    }
-
-    // Check that `aws` commandline tool is installed
-    try {
-        utils.log('Checking that aws CLI tool is installed...');
-        await execAsync(`aws help`);
-    } catch (err) {
-        throw new Error('You must have `awscli` commandline tool installed. Install it and try again.');
     }
 
     // Check that `aws` credentials are setup

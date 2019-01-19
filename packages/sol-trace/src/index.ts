@@ -5,7 +5,7 @@ export {
     ContractData,
     SourceCodes,
     Sources,
-} from '@0x/sol-tracing-utils';
+} from '@dexon-foundation/sol-tracing-utils';
 
 export { RevertTraceSubprovider } from './revert_trace_subprovider';
 
@@ -23,4 +23,4 @@ export {
     ErrorCallback,
     OnNextCompleted,
     Callback,
-} from '@0x/subproviders';
+} from '@dexon-foundation/subproviders';

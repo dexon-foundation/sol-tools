@@ -1,5 +1,5 @@
 import { JSONRPCRequestPayload, Provider } from 'ethereum-types';
-import * as Ganache from 'ganache-core';
+import * as Ganache from '@dexon-foundation/ganache-core';
 
 import { Callback, ErrorCallback } from '../types';
 

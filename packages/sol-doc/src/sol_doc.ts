@@ -14,7 +14,7 @@ import {
 import ethUtil = require('ethereumjs-util');
 import * as _ from 'lodash';
 
-import { Compiler, CompilerOptions } from '@0x/sol-compiler';
+import { Compiler, CompilerOptions } from '@dexon-foundation/sol-compiler';
 import {
     CustomType,
     CustomTypeChild,

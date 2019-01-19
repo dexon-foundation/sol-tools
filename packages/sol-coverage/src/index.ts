@@ -6,7 +6,7 @@ export {
     ContractData,
     SourceCodes,
     Sources,
-} from '@0x/sol-tracing-utils';
+} from '@dexon-foundation/sol-tracing-utils';
 
 export {
     JSONRPCRequestPayload,
@@ -22,4 +22,4 @@ export {
     ErrorCallback,
     OnNextCompleted,
     Callback,
-} from '@0x/subproviders';
+} from '@dexon-foundation/subproviders';

@@ -17,7 +17,7 @@ import * as _ from 'lodash';
 import * as path from 'path';
 import * as pluralize from 'pluralize';
 import * as semver from 'semver';
-import solc = require('solc');
+import solc = require('@dexon-foundation/dsolc');
 
 import { compilerOptionsSchema } from './schemas/compiler_options_schema';
 import { binPaths } from './solc/bin_paths';

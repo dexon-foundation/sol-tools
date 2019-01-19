@@ -1,4 +1,4 @@
-## @0x/sol-profiler
+## @dexon-foundation/sol-profiler
 
 Solidity line-by-line gas profiler.
 
@@ -7,19 +7,19 @@ Solidity line-by-line gas profiler.
 ## Installation
 
 ```bash
-yarn add @0x/sol-profiler
+yarn add @dexon-foundation/sol-profiler
 ```
 
 **Import**
 
 ```javascript
-import { ProfilerSubprovider } from '@0x/sol-profiler';
+import { ProfilerSubprovider } from '@dexon-foundation/sol-profiler';
 ```
 
 or
 
 ```javascript
-var ProfilerSubprovider = require('@0x/sol-profiler').ProfilerSubprovider;
+var ProfilerSubprovider = require('@dexon-foundation/sol-profiler').ProfilerSubprovider;
 ```
 
 ## Contributing
@@ -47,13 +47,13 @@ yarn install
 To build this package and all other monorepo packages that it depends on, run the following from the monorepo root directory:
 
 ```bash
-PKG=@0x/sol-profiler yarn build
+PKG=@dexon-foundation/sol-profiler yarn build
 ```
 
 Or continuously rebuild on change:
 
 ```bash
-PKG=@0x/sol-profiler yarn watch
+PKG=@dexon-foundation/sol-profiler yarn watch
 ```
 
 ### Clean

@@ -1,4 +1,4 @@
-## @0x/sol-compiler
+## @dexon-foundation/sol-compiler
 
 Sol-compiler is a wrapper around [solc-js](https://www.npmjs.com/package/solc) that adds:
 
@@ -15,13 +15,13 @@ Sol-compiler is a wrapper around [solc-js](https://www.npmjs.com/package/solc) t
 #### CLI Installation
 
 ```bash
-yarn global add @0x/sol-compiler
+yarn global add @dexon-foundation/sol-compiler
 ```
 
 #### API Installation
 
 ```bash
-yarn add @0x/sol-compiler
+yarn add @dexon-foundation/sol-compiler
 ```
 
 If your project is in [TypeScript](https://www.typescriptlang.org/), add the following to your `tsconfig.json`:
@@ -35,13 +35,13 @@ If your project is in [TypeScript](https://www.typescriptlang.org/), add the fol
 **Import**
 
 ```typescript
-import { Compiler } from '@0x/sol-compiler';
+import { Compiler } from '@dexon-foundation/sol-compiler';
 ```
 
 or
 
 ```javascript
-var Compiler = require('@0x/sol-compiler').Compiler;
+var Compiler = require('@dexon-foundation/sol-compiler').Compiler;
 ```
 
 ## Contributing
@@ -69,13 +69,13 @@ yarn install
 To build this package and all other monorepo packages that it depends on, run the following from the monorepo root directory:
 
 ```bash
-PKG=@0x/sol-compiler yarn build
+PKG=@dexon-foundation/sol-compiler yarn build
 ```
 
 Or continuously rebuild on change:
 
 ```bash
-PKG=@0x/sol-compiler yarn watch
+PKG=@dexon-foundation/sol-compiler yarn watch
 ```
 
 ### Clean

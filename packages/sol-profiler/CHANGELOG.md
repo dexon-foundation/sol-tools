@@ -19,4 +19,4 @@ CHANGELOG
 
 ## v1.0.0 - _Invalid date_
 
-    * Initial release as a separate package. For historical entries see @0x/sol-tracing-utils (#1492)
+    * Initial release as a separate package. For historical entries see @dexon-foundation/sol-tracing-utils (#1492)

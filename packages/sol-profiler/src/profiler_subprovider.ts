@@ -12,7 +12,7 @@ import {
     TraceInfo,
     TraceInfoSubprovider,
     utils,
-} from '@0x/sol-tracing-utils';
+} from '@dexon-foundation/sol-tracing-utils';
 
 /**
  * This class implements the [web3-provider-engine](https://github.com/MetaMask/provider-engine) subprovider interface.

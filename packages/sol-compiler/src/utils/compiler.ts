@@ -6,7 +6,7 @@ import * as ethUtil from 'ethereumjs-util';
 import * as _ from 'lodash';
 import * as path from 'path';
 import * as requireFromString from 'require-from-string';
-import * as solc from 'solc';
+import * as solc from '@dexon-foundation/dsolc';
 
 import { binPaths } from '../solc/bin_paths';
 

@@ -1,4 +1,4 @@
-## @0x/subproviders
+## @dexon-foundation/subproviders
 
 A few useful web3 subproviders including a LedgerSubprovider useful for adding Ledger Nano S support.
 
@@ -9,7 +9,7 @@ We have written up a [Wiki](https://0xproject.com/wiki#Web3-Provider-Examples) a
 ## Installation
 
 ```
-yarn add @0x/subproviders
+yarn add @dexon-foundation/subproviders
 ```
 
 If your project is in [TypeScript](https://www.typescriptlang.org/), add the following to your `tsconfig.json`:
@@ -45,13 +45,13 @@ yarn install
 To build this package and all other monorepo packages that it depends on, run the following from the monorepo root directory:
 
 ```bash
-PKG=@0x/subproviders yarn build
+PKG=@dexon-foundation/subproviders yarn build
 ```
 
 Or continuously rebuild on change:
 
 ```bash
-PKG=@0x/subproviders yarn watch
+PKG=@dexon-foundation/subproviders yarn watch
 ```
 
 ### Clean

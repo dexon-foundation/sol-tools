@@ -15,7 +15,7 @@ import {
     TraceInfo,
     TraceInfoSubprovider,
     utils,
-} from '@0x/sol-tracing-utils';
+} from '@dexon-foundation/sol-tracing-utils';
 import * as _ from 'lodash';
 
 /**

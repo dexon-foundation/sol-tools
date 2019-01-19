@@ -1,4 +1,4 @@
-## @0x/sol-coverage
+## @dexon-foundation/sol-coverage
 
 A Solidity code coverage tool.
 
@@ -7,19 +7,19 @@ A Solidity code coverage tool.
 ## Installation
 
 ```bash
-yarn add @0x/sol-coverage
+yarn add @dexon-foundation/sol-coverage
 ```
 
 **Import**
 
 ```javascript
-import { CoverageSubprovider } from '@0x/sol-coverage';
+import { CoverageSubprovider } from '@dexon-foundation/sol-coverage';
 ```
 
 or
 
 ```javascript
-var CoverageSubprovider = require('@0x/sol-coverage').CoverageSubprovider;
+var CoverageSubprovider = require('@dexon-foundation/sol-coverage').CoverageSubprovider;
 ```
 
 ## Contributing
@@ -47,13 +47,13 @@ yarn install
 To build this package and all other monorepo packages that it depends on, run the following from the monorepo root directory:
 
 ```bash
-PKG=@0x/sol-coverage yarn build
+PKG=@dexon-foundation/sol-coverage yarn build
 ```
 
 Or continuously rebuild on change:
 
 ```bash
-PKG=@0x/sol-coverage yarn watch
+PKG=@dexon-foundation/sol-coverage yarn watch
 ```
 
 ### Clean

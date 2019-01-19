@@ -1,12 +1,11 @@
 {
     "private": true,
-    "name": "0x-monorepo",
+    "name": "@dexon-foundation/sol-tools",
     "engines": {
         "node": ">=6.12"
     },
     "workspaces": [
-        "packages/*",
-        "contracts/*"
+        "packages/*"
     ],
     "scripts": {
         "ganache": "ganache-cli -p 8545 --gasLimit 10000000 --networkId 50 -m \"${npm_package_config_mnemonic}\"",
@@ -18,11 +17,12 @@
         "test:publish:circleci": "yarn npm-cli-login -u test -p test -e test@example.com -r http://localhost:4873 && IS_LOCAL_PUBLISH=true run-s script:publish test:installation:local",
         "run:publish": "run-s install:all build:monorepo_scripts script:prepublish_checks rebuild:no_website script:publish",
         "run:publish:local": "IS_LOCAL_PUBLISH=true yarn run:publish",
-        "script:prepublish_checks": "node ./packages/monorepo-scripts/lib/prepublish_checks.js",
-        "script:publish": "node ./packages/monorepo-scripts/lib/publish.js",
+        "script:prepublish_checks": "node ./node_modules/@0x/monorepo-scripts/lib/prepublish_checks.js",
+        "script:publish": "node ./node_modules/@0x/monorepo-scripts/lib/publish.js",
         "install:all": "yarn install",
         "wsrun": "wsrun",
         "lerna": "lerna",
+        "publish": "lerna publish",
         "build": "wsrun build $PKG --fast-exit -r --stages --exclude-missing",
         "build:no_website": "wsrun build $PKG --fast-exit -r --stages --exclude @0x/website --exclude-missing",
         "build:ci:no_website": "wsrun build:ci $PKG --fast-exit -r --stages --exclude @0x/website --exclude-missing",

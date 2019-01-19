@@ -1,5 +1,5 @@
 import { BlockchainLifecycle } from '@0x/dev-utils';
-import { Callback, ErrorCallback, NextCallback, Subprovider } from '@0x/subproviders';
+import { Callback, ErrorCallback, NextCallback, Subprovider } from '@dexon-foundation/subproviders';
 import { logUtils } from '@0x/utils';
 import { CallDataRPC, marshaller, Web3Wrapper } from '@0x/web3-wrapper';
 import { JSONRPCRequestPayload, Provider, TxData } from 'ethereum-types';

@@ -117,10 +117,10 @@ jobs:
             - run: yarn wsrun test:circleci @0x/metacoin
             - run: yarn wsrun test:circleci @0x/order-utils
             - run: yarn wsrun test:circleci @0x/order-watcher
-            - run: yarn wsrun test:circleci @0x/sol-compiler
-            - run: yarn wsrun test:circleci @0x/sol-tracing-utils
-            - run: yarn wsrun test:circleci @0x/sol-doc
-            - run: yarn wsrun test:circleci @0x/subproviders
+            - run: yarn wsrun test:circleci @dexon-foundation/sol-compiler
+            - run: yarn wsrun test:circleci @dexon-foundation/sol-tracing-utils
+            - run: yarn wsrun test:circleci @dexon-foundation/sol-doc
+            - run: yarn wsrun test:circleci @dexon-foundation/subproviders
             - run: yarn wsrun test:circleci @0x/web3-wrapper
             - run: yarn wsrun test:circleci @0x/utils
             - run: yarn wsrun test:circleci @0x/instant

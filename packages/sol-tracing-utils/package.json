@@ -1,5 +1,5 @@
 {
-    "name": "@0x/sol-tracing-utils",
+    "name": "@dexon-foundation/sol-tracing-utils",
     "version": "4.0.1",
     "engines": {
         "node": ">=6.12"
@@ -20,7 +20,7 @@
         "run_mocha": "mocha --require source-map-support/register --require make-promises-safe lib/test/**/*_test.js --exit",
         "clean": "shx rm -rf lib test/fixtures/artifacts src/artifacts generated_docs",
         "copy_test_fixtures": "copyfiles 'test/fixtures/**/*' ./lib",
-        "compile_test": "sol-compiler compile",
+        "compile_test": "dsol-compiler compile",
         "docs:json": "typedoc --excludePrivate --excludeExternals --target ES5 --tsconfig typedoc-tsconfig.json --json $JSON_FILE_PATH $PROJECT_FILES"
     },
     "config": {
@@ -42,9 +42,9 @@
     },
     "homepage": "https://github.com/0xProject/0x-monorepo/packages/sol-tracing-utils/README.md",
     "dependencies": {
+        "@dexon-foundation/sol-compiler": "^2.0.5",
+        "@dexon-foundation/subproviders": "^2.1.11",
         "@0x/dev-utils": "^1.0.24",
-        "@0x/sol-compiler": "^2.0.2",
-        "@0x/subproviders": "^2.1.11",
         "@0x/typescript-typings": "^3.0.8",
         "@0x/utils": "^3.0.1",
         "@0x/web3-wrapper": "^3.2.4",

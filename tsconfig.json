@@ -8,7 +8,7 @@
         "noImplicitReturns": true,
         "pretty": true,
         "skipLibCheck": true,
-        "typeRoots": ["node_modules/@0x/typescript-typings/types", "node_modules/@types"],
+        "typeRoots": ["node_modules/@0x/typescript-typings/types", "node_modules/@dexon-foundation/typescript-typings/types", "node_modules/@types"],
         "strict": true,
         // These settings are required for TypeScript project references
         "composite": true,
@@ -29,7 +29,6 @@
         { "path": "./contracts/test-utils" },
         { "path": "./contracts/tokens" },
         { "path": "./contracts/utils" },
-        { "path": "./packages/0x.js" },
         { "path": "./packages/abi-gen-wrappers" },
         { "path": "./packages/abi-gen" },
         { "path": "./packages/assert" },
