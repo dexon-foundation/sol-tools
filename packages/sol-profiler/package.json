@@ -1,6 +1,6 @@
 {
     "name": "@dexon-foundation/sol-profiler",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "node": ">=6.12"
     },
@@ -30,8 +30,8 @@
     "homepage": "https://github.com/0xProject/0x-monorepo/packages/sol-profiler/README.md",
     "dependencies": {
         "@0x/typescript-typings": "^3.0.8",
-        "@dexon-foundation/sol-tracing-utils": "^4.0.2",
-        "@dexon-foundation/subproviders": "^2.1.12",
+        "@dexon-foundation/sol-tracing-utils": "^4.0.3",
+        "@dexon-foundation/subproviders": "^2.1.13",
         "ethereum-types": "^1.1.6",
         "lodash": "^4.17.5"
     },
