@@ -1,6 +1,6 @@
 {
     "name": "@dexon-foundation/sol-trace",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "engines": {
         "node": ">=6.12"
     },
@@ -30,8 +30,8 @@
     "homepage": "https://github.com/0xProject/0x-monorepo/packages/sol-trace/README.md",
     "dependencies": {
         "@0x/typescript-typings": "^3.0.8",
-        "@dexon-foundation/sol-tracing-utils": "^4.0.4",
-        "@dexon-foundation/subproviders": "^2.1.14",
+        "@dexon-foundation/sol-tracing-utils": "^4.0.5",
+        "@dexon-foundation/subproviders": "^2.1.15",
         "ethereum-types": "^1.1.6",
         "ethereumjs-util": "^5.1.1",
         "lodash": "^4.17.5",
