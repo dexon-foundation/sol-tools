@@ -1,4 +1,4 @@
-import Web3ProviderEngine = require('web3-provider-engine');
+import Web3ProviderEngine = require('@dexon-foundation/web3-provider-engine');
 
 import { Subprovider } from '../subproviders/subprovider';
 

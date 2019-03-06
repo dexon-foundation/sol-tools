@@ -1374,7 +1374,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/ganache-core@^2.1.0", "@types/ganache-core@^2.1.2":
+"@types/ganache-core@^2.1.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@types/ganache-core/-/ganache-core-2.1.2.tgz#e4db6ce901da03be4d2a66de34e06b1f9b90c5e8"
   dependencies:

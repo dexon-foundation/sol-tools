@@ -29,9 +29,9 @@
     },
     "homepage": "https://github.com/0xProject/0x-monorepo/packages/sol-coverage/README.md",
     "dependencies": {
-        "@0x/typescript-typings": "^3.0.8",
+        "@dexon-foundation/typescript-typings": "^1.0.4",
         "@dexon-foundation/sol-tracing-utils": "^4.0.5",
-        "@dexon-foundation/subproviders": "^2.1.15",
+        "@dexon-foundation/subproviders": "^2.1.16",
         "ethereum-types": "^1.1.6",
         "lodash": "^4.17.5"
     },

@@ -1,6 +1,6 @@
 import Eth from '@ledgerhq/hw-app-eth';
 import TransportU2F from '@ledgerhq/hw-transport-u2f';
-export import Web3ProviderEngine = require('web3-provider-engine');
+export import Web3ProviderEngine = require('@dexon-foundation/web3-provider-engine');
 
 import { LedgerEthereumClient } from './types';
 

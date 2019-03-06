@@ -71,7 +71,6 @@
         "@0x/json-schemas": "^2.1.7",
         "@0x/sol-resolver": "^1.2.3",
         "@0x/types": "^1.5.2",
-        "@0x/typescript-typings": "^3.0.8",
         "@0x/utils": "^3.0.1",
         "@0x/web3-wrapper": "^3.2.4",
         "@dexon-foundation/dsolc": "^0.5.1",
