@@ -1,6 +1,6 @@
 {
     "name": "@dexon-foundation/sol-coverage",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "engines": {
         "node": ">=6.12"
     },
@@ -29,9 +29,9 @@
     },
     "homepage": "https://github.com/0xProject/0x-monorepo/packages/sol-coverage/README.md",
     "dependencies": {
-        "@dexon-foundation/sol-tracing-utils": "^4.0.6",
-        "@dexon-foundation/subproviders": "^2.1.17",
-        "@dexon-foundation/typescript-typings": "^4.0.1",
+        "@dexon-foundation/sol-tracing-utils": "^4.0.7",
+        "@dexon-foundation/subproviders": "^2.1.18",
+        "@dexon-foundation/typescript-typings": "^4.0.2",
         "ethereum-types": "^1.1.6",
         "lodash": "^4.17.5"
     },
