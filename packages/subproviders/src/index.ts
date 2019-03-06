@@ -1,6 +1,6 @@
 import Eth from '@ledgerhq/hw-app-eth';
 import TransportU2F from '@ledgerhq/hw-transport-u2f';
-export import Web3ProviderEngine = require('@dexon-foundation/web3-provider-engine');
+export import Web3ProviderEngine = require('web3-provider-engine');
 
 import { LedgerEthereumClient } from './types';
 
@@ -52,8 +52,16 @@ export { ECSignature, EIP712Object, EIP712ObjectValue, EIP712TypedData, EIP712Ty
 
 export {
     JSONRPCRequestPayload,
-    Provider,
+    SupportedProvider,
     JSONRPCResponsePayload,
-    JSONRPCErrorCallback,
     JSONRPCResponseError,
+    JSONRPCErrorCallback,
+    Web3JsProvider,
+    GanacheProvider,
+    EIP1193Provider,
+    ZeroExProvider,
+    EIP1193Event,
+    Web3JsV1Provider,
+    Web3JsV2Provider,
+    Web3JsV3Provider,
 } from 'ethereum-types';

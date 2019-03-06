@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 import { BlockParamLiteral, JSONRPCRequestPayload } from 'ethereum-types';
 import EthereumTx = require('ethereumjs-tx');
 import ethUtil = require('ethereumjs-util');
-import providerEngineUtils = require('@dexon-foundation/web3-provider-engine/util/rpc-cache-utils');
+import providerEngineUtils = require('web3-provider-engine/util/rpc-cache-utils');
 
 import { Callback, ErrorCallback, NextCallback, NonceSubproviderErrors } from '../types';
 

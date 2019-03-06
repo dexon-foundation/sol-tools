@@ -1,6 +1,6 @@
 import { promisify } from '@0x/utils';
 import { JSONRPCRequestPayload, JSONRPCResponsePayload } from 'ethereum-types';
-import Web3ProviderEngine = require('@dexon-foundation/web3-provider-engine');
+import Web3ProviderEngine = require('web3-provider-engine');
 
 import { Callback, ErrorCallback, JSONRPCRequestPayloadWithMethod } from '../types';
 /**
