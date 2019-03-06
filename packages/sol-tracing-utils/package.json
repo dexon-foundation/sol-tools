@@ -1,6 +1,6 @@
 {
     "name": "@dexon-foundation/sol-tracing-utils",
-    "version": "4.0.9",
+    "version": "4.0.10",
     "engines": {
         "node": ">=6.12"
     },
@@ -46,7 +46,7 @@
         "@0x/utils": "^3.0.1",
         "@0x/web3-wrapper": "^3.2.4",
         "@dexon-foundation/sol-compiler": "^2.0.11",
-        "@dexon-foundation/subproviders": "^3.0.1",
+        "@dexon-foundation/subproviders": "^3.0.2",
         "@dexon-foundation/typescript-typings": "^4.0.2",
         "@types/solidity-parser-antlr": "^0.2.0",
         "ethereum-types": "^1.1.6",
