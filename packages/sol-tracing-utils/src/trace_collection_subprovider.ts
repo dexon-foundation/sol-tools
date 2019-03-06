@@ -1,8 +1,8 @@
 import { BlockchainLifecycle } from '@0x/dev-utils';
-import { Callback, ErrorCallback, NextCallback, Subprovider } from '@dexon-foundation/subproviders';
+import { Callback, ErrorCallback, NextCallback, Subprovider, Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import { logUtils } from '@0x/utils';
 import { CallDataRPC, marshaller, Web3Wrapper } from '@0x/web3-wrapper';
-import { JSONRPCRequestPayload, Provider, TxData } from 'ethereum-types';
+import { JSONRPCRequestPayload, TxData } from 'ethereum-types';
 import * as _ from 'lodash';
 import { Lock } from 'semaphore-async-await';
 
@@ -129,7 +129,7 @@ export abstract class TraceCollectionSubprovider extends Subprovider {
      * directly.
      * @param engine The ProviderEngine this subprovider is added to
      */
-    public setEngine(engine: Provider): void {
+    public setEngine(engine: Web3ProviderEngine): void {
         super.setEngine(engine);
         this._web3Wrapper = new Web3Wrapper(engine);
     }
