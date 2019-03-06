@@ -30,7 +30,7 @@
     "homepage": "https://github.com/0xProject/0x-monorepo/packages/sol-profiler/README.md",
     "dependencies": {
         "@dexon-foundation/sol-tracing-utils": "^4.0.8",
-        "@dexon-foundation/subproviders": "^2.1.19",
+        "@dexon-foundation/subproviders": "^3.0.0",
         "@dexon-foundation/typescript-typings": "^4.0.2",
         "ethereum-types": "^1.1.6",
         "lodash": "^4.17.5"
