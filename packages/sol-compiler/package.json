@@ -1,6 +1,6 @@
 {
     "name": "@dexon-foundation/sol-compiler",
-    "version": "2.0.9",
+    "version": "2.0.10",
     "engines": {
         "node": ">=6.12"
     },
@@ -74,7 +74,7 @@
         "@0x/utils": "^3.0.1",
         "@0x/web3-wrapper": "^3.2.4",
         "@dexon-foundation/dsolc": "^0.5.1",
-        "@dexon-foundation/typescript-typings": "^1.0.4",
+        "@dexon-foundation/typescript-typings": "^1.0.5",
         "@types/yargs": "^11.0.0",
         "chalk": "^2.3.0",
         "chokidar": "^2.0.4",
