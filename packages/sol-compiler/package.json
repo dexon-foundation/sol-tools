@@ -77,7 +77,7 @@
         "@dexon-foundation/typescript-typings": "^4.0.3",
         "@types/yargs": "^11.0.0",
         "chalk": "^2.3.0",
-        "chokidar": "^2.0.4",
+        "chokidar": "^2.1.5",
         "ethereum-types": "^1.1.6",
         "ethereumjs-util": "^5.1.1",
         "lodash": "^4.17.5",
